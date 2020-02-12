@@ -4,6 +4,7 @@ public class OlaGenerico {
         if (args.length < 1) {
             System.out.println("Hello World");
         } else {
+            // Pega o primeiro argumento passado para o programa e printa na tela
             System.out.println("Hello " + args[0]);
         }
     }
