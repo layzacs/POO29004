@@ -2,7 +2,10 @@
 public class OlaMundo {
     // Método main (principal)
     public static void main(String args[]) {
-        // 
         System.out.println("Hello world");
     }
 }
+
+/// Pra executar:
+// compilar com "javac nomedoarquivo.java"
+// rodar com java "nomedoarquivo.java"
