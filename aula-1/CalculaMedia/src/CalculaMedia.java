@@ -5,7 +5,6 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-
 class CalculaMedia {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -54,6 +53,7 @@ class CalculaMedia {
         System.out.println("Nota das listas: " + ls);
         ls = ls*0.1;
 
+        // System.out.printf("%8,.2f" (pj + ls));
         System.out.println("Nota final: " + (pj + ls));
     }
 }
