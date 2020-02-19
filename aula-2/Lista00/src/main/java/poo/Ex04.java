@@ -8,7 +8,7 @@ public class Ex04 {
         Scanner file = new Scanner(System.in);
         Random rand = new Random();
         // enquanto houver uma proxima linha com um nome:
-        while (file.hasNextLine()) {
+        while (file.hasNext()) {
             String nome = file.next();
             // printa o nome na tela e cria 10 números aleatórios entre 0 e 10.
             System.out.print(nome);

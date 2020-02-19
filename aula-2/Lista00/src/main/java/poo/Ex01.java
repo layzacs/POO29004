@@ -2,7 +2,8 @@ package poo;
 
 public class Ex01 {
 
-    public boolean TestaTriangulo(double a, double b, double c) {
+    // Testa se é um triângulo e retorna true/false
+    public boolean testaTriangulo(double a, double b, double c) {
         // pra ser um triangulo, a soma de dois lados precisa ser maior que o terceiro lado
         if ((a+b) > c) {
             return true;
@@ -11,6 +12,7 @@ public class Ex01 {
         }
     }
 
+    // retorna o tipo de triângulo
     public String TestaTipo(double a, double b, double c) {
         // se todos os 3 lados for igual, é um equilatero
         if (a == b && b == c) {

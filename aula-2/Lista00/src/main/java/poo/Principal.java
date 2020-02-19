@@ -22,7 +22,7 @@ public class Principal {
                 b = teclado.nextDouble();
                 c = teclado.nextDouble();
 
-                if (ex01.TestaTriangulo(a, b, c)) {
+                if (ex01.testaTriangulo(a, b, c)) {
                     System.out.println("É um triângulo válido.");
                     System.out.println(ex01.TestaTipo(a, b, c));
                 }

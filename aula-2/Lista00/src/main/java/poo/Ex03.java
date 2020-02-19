@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex03 {
     public void CalculaMediaArquivo() {
         Scanner file = new Scanner(System.in);
-        while (file.hasNextLine()) {
+        while (file.hasNext()) {
             String nome = file.next();
             int vet[] = new int[10];
             for (int i = 0; i<10; i++) {
@@ -53,6 +53,6 @@ public class Ex03 {
         ls = Math.pow(ls, 0.142857142);
         ls = ls*0.1;
 
-        return (pj + ls);
+        return (Math.round(pj + ls));
     }
 };

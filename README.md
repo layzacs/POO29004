@@ -1,5 +1,5 @@
 # POO29004
-Atividades e projetos da disciplina de Programação Orientada a Objetos
+Atividades e projetos da disciplina de Programação Orientada a Objetos.
 
 Prof. Emerson Ribeiro de Mello
 mello@ifsc.edu.br
